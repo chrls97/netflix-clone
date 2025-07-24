@@ -1,3 +1,80 @@
-.home{
-  color: white;
+.hero{
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.banner-img{
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  mask-size: center;
+  mask-image: 
+    linear-gradient(to top, transparent, black 50%), /* Top mask */
+    linear-gradient(to right, transparent, black 50%);  /* Right mask */
+    mask-composite: intersect; /* Controls how masks combine (optional) */
+    -webkit-mask-composite: source-in; /* For Safari */
+}
+
+.hero-caption{
+  position: absolute;
+  width: 100%;
+  padding-left: 3.1%;
+}
+
+.hero-caption img{
+  width: 90%;
+  max-width: 700px;
+}
+
+.hero-caption p{
+  max-width: 700px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.hero-btns{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.hero-btns .btn img{
+  width: 25px;
+}
+
+.hero-btns .btn{
+  
+  border: 0;
+  outline: 0;
+  padding: 15px 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  background: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.hero-btns .btn:hover{
+  background:rgba(255, 255, 255, 0.781);
+}
+
+
+.hero-btns .btn.dark-btn{
+  color: #fff;
+  background:  #6d6d6d8f;
+}
+
+.hero-btns .btn.dark-btn:hover{
+  background:  #6d6d6d4f;
+}
+
+.more-cards{
+  margin-top: -150px ;
+  width: 100%;
+  padding-left: 3.1%;
 }

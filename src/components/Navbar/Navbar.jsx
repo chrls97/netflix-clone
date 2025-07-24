@@ -8,6 +8,8 @@ import caret_icon from '../../assets/caret_icon.svg'
 
 
 const Navbar = () => {
+
+
   return (
     <div className='navbar'>
       <div className="navbar-left">
@@ -25,7 +27,6 @@ const Navbar = () => {
 
       <div className="navbar-right">
         <img src={search_icon} className='icons'/>
-        <p>Children</p>
         <img src={bell_icon} className='icons'/>
         <div className="navbar-profile">
           <img src={profile_icon} className='profile' />
