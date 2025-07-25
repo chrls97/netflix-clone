@@ -2,6 +2,8 @@
   height: 100vh;
   background-image: linear-gradient(#00000065,#00000062) ,url('../../assets/background_banner.jpg');
   padding: 23px 19%;
+  align-items: center;
+  justify-content: center;
 }
 
 .login-logo{
