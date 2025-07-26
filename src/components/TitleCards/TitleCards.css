@@ -35,3 +35,19 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  .title-cards{
+    margin-top: 50px;
+  }
+  .title-cards h2{
+    font-size: 1.3rem;
+  }
+  .card-list img{
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .card-list .card p {
+    font-size: 0.8rem;    
+  }
+}

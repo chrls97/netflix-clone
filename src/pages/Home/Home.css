@@ -78,3 +78,54 @@
   width: 100%;
   padding-left: 3.1%;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .hero-caption .title-cards{
+    display: none;
+  }
+  .hero-btns{
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .banner-img{
+    mask-image: linear-gradient(to right, transparent, black 50%);  /* Right mask */
+  }
+
+  .hero-caption img{
+    padding-left: 4%;
+  }
+  .caption-img{
+    width: 40%;
+    margin-bottom: 10px;
+  }
+  .hero-caption p{
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .hero-btns{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 0px;
+  }
+
+  .hero-btns .btn img{
+    width: 10px;
+  }
+
+  .hero-btns .btn{
+    
+    padding: 5px 10px;
+    display: inline-flex;
+    font-size: 12px;
+  }
+
+  .more-cards{
+    margin-top: -30px ;
+    width: 100%;
+    padding-left: 3.1%;
+  }
+}

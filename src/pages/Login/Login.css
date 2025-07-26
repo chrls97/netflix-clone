@@ -100,3 +100,18 @@
   height: 100px;
 
 }
+
+
+@media (max-width: 769px) {
+  .login{
+    padding: 15px 5%;
+  }
+  .login-form{
+    padding: 20px;
+  }
+  .login-form h1{
+     font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 0px;
+  }
+}
